@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Replace with your own YouTube Data API v3 key
-YOUTUBE_API_KEY ="AIzaSyCbPdvJmfbJ0Er8PTrMSdiewjAQGMD2x88"
+YOUTUBE_API_KEY = os.getenv("   YOUTUBE_API_KEY")
 
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 
